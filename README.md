@@ -24,7 +24,12 @@ Or in the case of the two 'center' options the axis the view will be rotated abo
 
 ## Installation
 ====
+## Manual
+* Copy the header and message files(`UIView+Transform3D.{h,m}`) for the category into you project
+* Add the `QuartzCore.framework` to the `Link binaries with Libraries` section of your projects build targets `Build Phases` 
 
+### In progress
+adding the library to cocoapods.
 
 ## License
 ====
