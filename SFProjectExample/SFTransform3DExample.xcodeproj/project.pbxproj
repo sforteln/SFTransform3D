@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9155D4E9171B709B00544394 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9155D4E8171B709B00544394 /* UIKit.framework */; };
+		9155D4EB171B709B00544394 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9155D4EA171B709B00544394 /* Foundation.framework */; };
+		9155D4ED171B709B00544394 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9155D4EC171B709B00544394 /* CoreGraphics.framework */; };
+		9155D4F3171B709B00544394 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9155D4F1171B709B00544394 /* InfoPlist.strings */; };
+		9155D4F5171B709B00544394 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9155D4F4171B709B00544394 /* main.m */; };
+		9155D4F9171B709B00544394 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9155D4F8171B709B00544394 /* AppDelegate.m */; };
+		9155D4FB171B709B00544394 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9155D4FA171B709B00544394 /* Default.png */; };
+		9155D4FD171B709B00544394 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9155D4FC171B709B00544394 /* Default@2x.png */; };
+		9155D4FF171B709B00544394 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9155D4FE171B709B00544394 /* Default-568h@2x.png */; };
+		9155D502171B709B00544394 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9155D501171B709B00544394 /* ViewController.m */; };
+		9155D505171B709B00544394 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9155D503171B709B00544394 /* ViewController.xib */; };
+		9155D511171B740E00544394 /* UIView+Transform3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 9155D510171B740E00544394 /* UIView+Transform3D.m */; };
+		9155D513171B79B500544394 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9155D512171B79B500544394 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9155D4E5171B709B00544394 /* SFTransform3DExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFTransform3DExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9155D4E8171B709B00544394 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9155D4EA171B709B00544394 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9155D4EC171B709B00544394 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9155D4F0171B709B00544394 /* SFTransform3DExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SFTransform3DExample-Info.plist"; sourceTree = "<group>"; };
+		9155D4F2171B709B00544394 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9155D4F4171B709B00544394 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9155D4F6171B709B00544394 /* SFTransform3DExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SFTransform3DExample-Prefix.pch"; sourceTree = "<group>"; };
+		9155D4F7171B709B00544394 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9155D4F8171B709B00544394 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9155D4FA171B709B00544394 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9155D4FC171B709B00544394 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9155D4FE171B709B00544394 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9155D500171B709B00544394 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9155D501171B709B00544394 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9155D504171B709B00544394 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		9155D50F171B740E00544394 /* UIView+Transform3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Transform3D.h"; path = "../UIView+Transform3D.h"; sourceTree = "<group>"; };
+		9155D510171B740E00544394 /* UIView+Transform3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Transform3D.m"; path = "../UIView+Transform3D.m"; sourceTree = "<group>"; };
+		9155D512171B79B500544394 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9155D4E2171B709B00544394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9155D513171B79B500544394 /* QuartzCore.framework in Frameworks */,
+				9155D4E9171B709B00544394 /* UIKit.framework in Frameworks */,
+				9155D4EB171B709B00544394 /* Foundation.framework in Frameworks */,
+				9155D4ED171B709B00544394 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9155D4DC171B709B00544394 = {
+			isa = PBXGroup;
+			children = (
+				9155D512171B79B500544394 /* QuartzCore.framework */,
+				9155D50F171B740E00544394 /* UIView+Transform3D.h */,
+				9155D510171B740E00544394 /* UIView+Transform3D.m */,
+				9155D4EE171B709B00544394 /* SFTransform3DExample */,
+				9155D4E7171B709B00544394 /* Frameworks */,
+				9155D4E6171B709B00544394 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9155D4E6171B709B00544394 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9155D4E5171B709B00544394 /* SFTransform3DExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9155D4E7171B709B00544394 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9155D4E8171B709B00544394 /* UIKit.framework */,
+				9155D4EA171B709B00544394 /* Foundation.framework */,
+				9155D4EC171B709B00544394 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9155D4EE171B709B00544394 /* SFTransform3DExample */ = {
+			isa = PBXGroup;
+			children = (
+				9155D4F7171B709B00544394 /* AppDelegate.h */,
+				9155D4F8171B709B00544394 /* AppDelegate.m */,
+				9155D500171B709B00544394 /* ViewController.h */,
+				9155D501171B709B00544394 /* ViewController.m */,
+				9155D503171B709B00544394 /* ViewController.xib */,
+				9155D4EF171B709B00544394 /* Supporting Files */,
+			);
+			name = SFTransform3DExample;
+			path = SFProjectExample;
+			sourceTree = "<group>";
+		};
+		9155D4EF171B709B00544394 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9155D4F0171B709B00544394 /* SFTransform3DExample-Info.plist */,
+				9155D4F1171B709B00544394 /* InfoPlist.strings */,
+				9155D4F4171B709B00544394 /* main.m */,
+				9155D4F6171B709B00544394 /* SFTransform3DExample-Prefix.pch */,
+				9155D4FA171B709B00544394 /* Default.png */,
+				9155D4FC171B709B00544394 /* Default@2x.png */,
+				9155D4FE171B709B00544394 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9155D4E4171B709B00544394 /* SFTransform3DExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9155D508171B709B00544394 /* Build configuration list for PBXNativeTarget "SFTransform3DExample" */;
+			buildPhases = (
+				9155D4E1171B709B00544394 /* Sources */,
+				9155D4E2171B709B00544394 /* Frameworks */,
+				9155D4E3171B709B00544394 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFTransform3DExample;
+			productName = SFProjectExample;
+			productReference = 9155D4E5171B709B00544394 /* SFTransform3DExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9155D4DD171B709B00544394 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Simon Fortelny";
+			};
+			buildConfigurationList = 9155D4E0171B709B00544394 /* Build configuration list for PBXProject "SFTransform3DExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9155D4DC171B709B00544394;
+			productRefGroup = 9155D4E6171B709B00544394 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9155D4E4171B709B00544394 /* SFTransform3DExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9155D4E3171B709B00544394 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9155D4F3171B709B00544394 /* InfoPlist.strings in Resources */,
+				9155D4FB171B709B00544394 /* Default.png in Resources */,
+				9155D4FD171B709B00544394 /* Default@2x.png in Resources */,
+				9155D4FF171B709B00544394 /* Default-568h@2x.png in Resources */,
+				9155D505171B709B00544394 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9155D4E1171B709B00544394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9155D4F5171B709B00544394 /* main.m in Sources */,
+				9155D4F9171B709B00544394 /* AppDelegate.m in Sources */,
+				9155D502171B709B00544394 /* ViewController.m in Sources */,
+				9155D511171B740E00544394 /* UIView+Transform3D.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9155D4F1171B709B00544394 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9155D4F2171B709B00544394 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9155D503171B709B00544394 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9155D504171B709B00544394 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9155D506171B709B00544394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9155D507171B709B00544394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9155D509171B709B00544394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFProjectExample/SFTransform3DExample-Prefix.pch";
+				INFOPLIST_FILE = "SFProjectExample/SFTransform3DExample-Info.plist";
+				PRODUCT_NAME = SFTransform3DExample;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9155D50A171B709B00544394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFProjectExample/SFTransform3DExample-Prefix.pch";
+				INFOPLIST_FILE = "SFProjectExample/SFTransform3DExample-Info.plist";
+				PRODUCT_NAME = SFTransform3DExample;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9155D4E0171B709B00544394 /* Build configuration list for PBXProject "SFTransform3DExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9155D506171B709B00544394 /* Debug */,
+				9155D507171B709B00544394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9155D508171B709B00544394 /* Build configuration list for PBXNativeTarget "SFTransform3DExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9155D509171B709B00544394 /* Debug */,
+				9155D50A171B709B00544394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9155D4DD171B709B00544394 /* Project object */;
+}
