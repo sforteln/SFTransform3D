@@ -15,6 +15,8 @@
 @property (nonatomic,strong) IBOutlet UIButton *leftBtn;
 @property (nonatomic,strong) IBOutlet UIButton *rightBtn;
 
+@property (nonatomic,strong) IBOutlet UILabel *label;
+
 @property (nonatomic,strong) IBOutlet UIView *viewToRotate;
 
 -(IBAction)buttonPressed:(id)sender;

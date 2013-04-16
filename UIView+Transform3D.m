@@ -42,13 +42,14 @@
     int newY =self.center.y + (self.bounds.size.height*(self.layer.anchorPoint.y-origAnchor.y));
     self.center = CGPointMake(newX,newY);
     self.layer.anchorPoint = origAnchor;
-
+    
     if(completion){
       completion();
     }
   }];
   
 }
+
 
 /*
  * Create 3D transform

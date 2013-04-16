@@ -32,7 +32,6 @@
   }else{
     rotationType=kRotationAroundRightEdge;
   }
-  
   self.topBtn.enabled=NO;
   self.bottomBtn.enabled=NO;
   self.leftBtn.enabled=NO;
@@ -42,6 +41,7 @@
     self.bottomBtn.enabled=YES;
     self.leftBtn.enabled=YES;
     self.rightBtn.enabled=YES;
+
   }];
 }
 
