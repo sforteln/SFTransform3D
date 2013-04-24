@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SFTransform3D"
-  s.version      = "0.4"
+  s.version      = "0.5"
   s.summary      = "An iOS category on UIView to simplify 3D transformations."
   s.description  = <<-DESC
                     SFTransform3D is an iOS category on UIView that simplifies applyinf some 3D transormations to the UIView.

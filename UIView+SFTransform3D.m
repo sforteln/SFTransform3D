@@ -1,5 +1,5 @@
 //
-//  UIView+Transform3D.m
+//  UIView+SFTransform3D.m
 //
 // Copyright 2013 Simon Fortelny
 //
@@ -21,7 +21,7 @@
 
 #define ToRad(deg) 		( (M_PI * (deg)) / 180.0 )
 
-@implementation UIView (Transform3D)
+@implementation UIView (SFTransform3D)
 
 -(void)rotate:(kRotationAround)rotationType degrees:(float)degrees duration:(float)duration delay:(float)delay completion:(void (^)(void))completion{
   //capture orig anchor so we can restore it after the animation

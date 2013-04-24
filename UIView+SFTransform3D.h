@@ -1,5 +1,5 @@
 //
-//  UIView+Transforms3D.h
+//  UIView+SFTransforms3D.h
 //
 // Copyright 2013 Simon Fortelny
 //
@@ -30,7 +30,7 @@ typedef enum {
   
 } kRotationAround;
 
-@interface UIView (Transform3D)
+@interface UIView (SFTransform3D)
 
 
 -(void)rotate:(kRotationAround)rotationAround degrees:(float)degrees duration:(float)duration delay:(float)delay completion:(void (^)(void))completion;

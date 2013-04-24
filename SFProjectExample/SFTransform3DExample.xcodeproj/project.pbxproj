@@ -18,7 +18,7 @@
 		9155D4FF171B709B00544394 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9155D4FE171B709B00544394 /* Default-568h@2x.png */; };
 		9155D502171B709B00544394 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9155D501171B709B00544394 /* ViewController.m */; };
 		9155D505171B709B00544394 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9155D503171B709B00544394 /* ViewController.xib */; };
-		9155D511171B740E00544394 /* UIView+Transform3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 9155D510171B740E00544394 /* UIView+Transform3D.m */; };
+		9155D511171B740E00544394 /* UIView+SFTransform3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 9155D510171B740E00544394 /* UIView+SFTransform3D.m */; };
 		9155D513171B79B500544394 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9155D512171B79B500544394 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,8 +39,8 @@
 		9155D500171B709B00544394 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9155D501171B709B00544394 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9155D504171B709B00544394 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		9155D50F171B740E00544394 /* UIView+Transform3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Transform3D.h"; path = "../UIView+Transform3D.h"; sourceTree = "<group>"; };
-		9155D510171B740E00544394 /* UIView+Transform3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Transform3D.m"; path = "../UIView+Transform3D.m"; sourceTree = "<group>"; };
+		9155D50F171B740E00544394 /* UIView+SFTransform3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+SFTransform3D.h"; path = "../UIView+SFTransform3D.h"; sourceTree = "<group>"; };
+		9155D510171B740E00544394 /* UIView+SFTransform3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+SFTransform3D.m"; path = "../UIView+SFTransform3D.m"; sourceTree = "<group>"; };
 		9155D512171B79B500544394 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -63,8 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				9155D512171B79B500544394 /* QuartzCore.framework */,
-				9155D50F171B740E00544394 /* UIView+Transform3D.h */,
-				9155D510171B740E00544394 /* UIView+Transform3D.m */,
+				9155D50F171B740E00544394 /* UIView+SFTransform3D.h */,
+				9155D510171B740E00544394 /* UIView+SFTransform3D.m */,
 				9155D4EE171B709B00544394 /* SFTransform3DExample */,
 				9155D4E7171B709B00544394 /* Frameworks */,
 				9155D4E6171B709B00544394 /* Products */,
@@ -186,7 +186,7 @@
 				9155D4F5171B709B00544394 /* main.m in Sources */,
 				9155D4F9171B709B00544394 /* AppDelegate.m in Sources */,
 				9155D502171B709B00544394 /* ViewController.m in Sources */,
-				9155D511171B740E00544394 /* UIView+Transform3D.m in Sources */,
+				9155D511171B740E00544394 /* UIView+SFTransform3D.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +309,7 @@
 				9155D50A171B709B00544394 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
