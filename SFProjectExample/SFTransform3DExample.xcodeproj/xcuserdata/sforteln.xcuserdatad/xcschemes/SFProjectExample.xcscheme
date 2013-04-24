@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9155D4E4171B709B00544394"
-               BuildableName = "SFProjectExample.app"
+               BuildableName = "SFTransform3DExample.app"
                BlueprintName = "SFTransform3DExample"
                ReferencedContainer = "container:SFTransform3DExample.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9155D4E4171B709B00544394"
-            BuildableName = "SFProjectExample.app"
+            BuildableName = "SFTransform3DExample.app"
             BlueprintName = "SFTransform3DExample"
             ReferencedContainer = "container:SFTransform3DExample.xcodeproj">
          </BuildableReference>
@@ -52,7 +52,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9155D4E4171B709B00544394"
-            BuildableName = "SFProjectExample.app"
+            BuildableName = "SFTransform3DExample.app"
             BlueprintName = "SFTransform3DExample"
             ReferencedContainer = "container:SFTransform3DExample.xcodeproj">
          </BuildableReference>
@@ -70,7 +70,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9155D4E4171B709B00544394"
-            BuildableName = "SFProjectExample.app"
+            BuildableName = "SFTransform3DExample.app"
             BlueprintName = "SFTransform3DExample"
             ReferencedContainer = "container:SFTransform3DExample.xcodeproj">
          </BuildableReference>

@@ -14,6 +14,8 @@
 @property (nonatomic,strong) IBOutlet UIButton *bottomBtn;
 @property (nonatomic,strong) IBOutlet UIButton *leftBtn;
 @property (nonatomic,strong) IBOutlet UIButton *rightBtn;
+@property (nonatomic,strong) IBOutlet UIButton *leftDiagnalBtn;
+@property (nonatomic,strong) IBOutlet UIButton *rightDiagnalBtn;
 
 @property (nonatomic,strong) IBOutlet UILabel *label;
 

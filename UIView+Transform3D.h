@@ -24,7 +24,9 @@ typedef enum {
   kRotationAroundTopEdge,
   kRotationAroundBottomEdge,
   kRotationAroundCenterAlongXAxis,
-  kRotationAroundCenterAlongYAxis
+  kRotationAroundCenterAlongYAxis,
+  kRotationAroundCenterAlongDiagonalFromUpperLeft,
+  kRotationAroundCenterAlongDiagonalFromUpperRight,
   
 } kRotationAround;
 

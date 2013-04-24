@@ -75,6 +75,12 @@
     case kRotationAroundCenterAlongYAxis:
       transform =CATransform3DMakeRotation(ToRad(degrees),0.0f,1.0f,0.0f);
       break;
+    case kRotationAroundCenterAlongDiagonalFromUpperLeft:
+      transform =CATransform3DMakeRotation(ToRad(degrees),1.0f,1.0f,0.0f);
+      break;
+    case kRotationAroundCenterAlongDiagonalFromUpperRight:
+      transform =CATransform3DMakeRotation(ToRad(degrees),1.0f,-1.0f,0.0f);
+      break;
     default:
       break;
   }
@@ -105,10 +111,12 @@
       self.center = CGPointMake(self.center.x, self.center.y+ self.bounds.size.height/2.0f);
       break;
     case kRotationAroundCenterAlongXAxis:
-      self.layer.anchorPoint= CGPointMake(0.5, .5);
-      self.center = CGPointMake(self.center.x, self.center.y);
-      break;
+      //fall through
     case kRotationAroundCenterAlongYAxis:
+      //fall through
+    case kRotationAroundCenterAlongDiagonalFromUpperLeft:
+      //fall through
+    case kRotationAroundCenterAlongDiagonalFromUpperRight:
       self.layer.anchorPoint= CGPointMake(0.5, .5);
       self.center = CGPointMake(self.center.x, self.center.y);
       break;
