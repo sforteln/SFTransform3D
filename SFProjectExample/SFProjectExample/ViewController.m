@@ -46,13 +46,17 @@
   self.rightBtn.enabled=NO;
   self.rightDiagnalBtn.enabled=NO;
   self.leftDiagnalBtn.enabled=NO;
-  [self.viewToRotate rotate:rotationType degrees:180 duration:1 delay:0 completion:^{
-    self.topBtn.enabled=YES;
-    self.bottomBtn.enabled=YES;
-    self.leftBtn.enabled=YES;
-    self.rightBtn.enabled=YES;
-    self.rightDiagnalBtn.enabled=YES;
-    self.leftDiagnalBtn.enabled=YES;
+  [self.viewToRotate rotate:rotationType
+                    degrees:180
+                   duration:1
+                      delay:0
+                 completion:^{
+                    self.topBtn.enabled=YES;
+                    self.bottomBtn.enabled=YES;
+                    self.leftBtn.enabled=YES;
+                    self.rightBtn.enabled=YES;
+                    self.rightDiagnalBtn.enabled=YES;
+                    self.leftDiagnalBtn.enabled=YES;
   }];
 }
 
